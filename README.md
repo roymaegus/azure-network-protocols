@@ -57,6 +57,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="images/2 - observation/39 - rdp.PNG" alt="rdp" width="50%" height="50%">
 
 
+
 ## Part 1 (Create our Resources)
 
 1. **Create a Resource Group**
