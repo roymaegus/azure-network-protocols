@@ -23,6 +23,47 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 # Azure Networking Lab
 
+<img src="images/1 - Setup/1 - resourceGroups.PNG" alt="resourceGroups" width="50%" height="50%">
+<img src="images/1 - Setup/10 - skipDisk2.PNG" alt="skipDisk2" width="50%" height="50%">
+<img src="images/1 - Setup/11 - networking2.PNG" alt="networking2" width="50%" height="50%">
+<img src="images/1 - Setup/12 - remoteDesktop.PNG" alt="remoteDesktop" width="50%" height="50%">
+<img src="images/1 - Setup/13 - privacySettings.PNG" alt="privacySettings" width="50%" height="50%">
+<img src="images/1 - Setup/14 - wireSharkSearch.PNG" alt="wireSharkSearch" width="50%" height="50%">
+<img src="images/1 - Setup/15 - downloadWireshark.PNG" alt="downloadWireshark" width="50%" height="50%">
+<img src="images/1 - Setup/16 - wiresharkInstall.PNG" alt="wiresharkInstall" width="50%" height="50%">
+<img src="images/1 - Setup/2 - reviewCreate.PNG" alt="reviewCreate" width="50%" height="50%">
+<img src="images/1 - Setup/3- VmPage.PNG" alt="VmPage" width="50%" height="50%">
+<img src="images/1 - Setup/4 - vmCreateTop.PNG" alt="vmCreateTop" width="50%" height="50%">
+<img src="images/1 - Setup/5 - vmCreateBottom.PNG" alt="vmCreateBottom" width="50%" height="50%">
+<img src="images/1 - Setup/6 - skipDisk.PNG" alt="skipDisk" width="50%" height="50%">
+<img src="images/1 - Setup/7 - networking.PNG" alt="networking" width="50%" height="50%">
+<img src="images/1 - Setup/8 - createVM2.PNG" alt="createVM2" width="50%" height="50%">
+<img src="images/1 - Setup/9 - createVM2Bottom.PNG" alt="createVM2Bottom" width="50%" height="50%">
+<img src="images/2 - observation/17 - wireSharkHome.PNG" alt="wireSharkHome" width="50%" height="50%">
+<img src="images/2 - observation/18 - randomDataCapture.PNG" alt="randomDataCapture" width="50%" height="50%">
+<img src="images/2 - observation/19 - searchIcmp.PNG" alt="searchIcmp" width="50%" height="50%">
+<img src="images/2 - observation/20 - privateIpAdressVm2.PNG" alt="privateIpAdressVm2" width="50%" height="50%">
+<img src="images/2 - observation/21 - openPowershell.PNG" alt="openPowershell" width="50%" height="50%">
+<img src="images/2 - observation/22 - pingVM2.PNG" alt="pingVM2" width="50%" height="50%">
+<img src="images/2 - observation/23 - clearData.PNG" alt="clearData" width="50%" height="50%">
+<img src="images/2 - observation/24 - infinitePing.PNG" alt="infinitePing" width="50%" height="50%">
+<img src="images/2 - observation/25 - infinitePingActive.PNG" alt="infinitePingActive" width="50%" height="50%">
+<img src="images/2 - observation/26 - NetworkSecurityGroups.PNG" alt="NetworkSecurityGroups" width="50%" height="50%">
+<img src="images/2 - observation/27 - selectNSG.PNG" alt="selectNSG" width="50%" height="50%">
+<img src="images/2 - observation/28 - inboundSecurity.PNG" alt="inboundSecurity" width="50%" height="50%">
+<img src="images/2 - observation/29 - inboundSecurityRuleConfig.PNG" alt="inboundSecurityRuleConfig" width="50%" height="50%">
+<img src="images/2 - observation/30 - timeOut.PNG" alt="timeOut" width="50%" height="50%">
+<img src="images/2 - observation/31 - allowPing.PNG" alt="allowPing" width="50%" height="50%">
+<img src="images/2 - observation/32 - successfulPing.PNG" alt="successfulPing" width="50%" height="50%">
+<img src="images/2 - observation/33 - stopProcess.PNG" alt="stopProcess" width="50%" height="50%">
+<img src="images/2 - observation/34 - privateIPreminder.PNG" alt="privateIPreminder" width="50%" height="50%">
+<img src="images/2 - observation/35 - sshCommand.PNG" alt="sshCommand" width="50%" height="50%">
+<img src="images/2 - observation/36 - accessVm2.PNG" alt="accessVm2" width="50%" height="50%">
+<img src="images/2 - observation/37 - exitCommand.PNG" alt="exitCommand" width="50%" height="50%">
+<img src="images/2 - observation/38 - dnsObservation.PNG" alt="dnsObservation" width="50%" height="50%">
+<img src="images/2 - observation/39 - rdp.PNG" alt="rdp" width="50%" height="50%">
+
+
 ## Part 1 (Create our Resources)
 
 1. **Create a Resource Group**
