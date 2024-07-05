@@ -28,15 +28,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 
-<img src="images/2 - observation/31 - allowPing.PNG" alt="allowPing" width="50%" height="50%">
-<img src="images/2 - observation/32 - successfulPing.PNG" alt="successfulPing" width="50%" height="50%">
-<img src="images/2 - observation/33 - stopProcess.PNG" alt="stopProcess" width="50%" height="50%">
-<img src="images/2 - observation/34 - privateIPreminder.PNG" alt="privateIPreminder" width="50%" height="50%">
-<img src="images/2 - observation/35 - sshCommand.PNG" alt="sshCommand" width="50%" height="50%">
-<img src="images/2 - observation/36 - accessVm2.PNG" alt="accessVm2" width="50%" height="50%">
-<img src="images/2 - observation/37 - exitCommand.PNG" alt="exitCommand" width="50%" height="50%">
-<img src="images/2 - observation/38 - dnsObservation.PNG" alt="dnsObservation" width="50%" height="50%">
-<img src="images/2 - observation/39 - rdp.PNG" alt="rdp" width="50%" height="50%">
+
+
+
+
 
 
 
@@ -125,39 +120,47 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="images/2 - observation/30 - timeOut.PNG" alt="timeOut" width="50%" height="50%">
     
 15. **Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using**
-16. **Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the Command Line Ping activity (should start working)**
-17. **Stop the ping activity**
+<img src="images/2 - observation/31 - allowPing.PNG" alt="allowPing" width="50%" height="50%">
+
+    
+17. **Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the Command Line Ping activity (should start working)**
+
+<img src="images/2 - observation/32 - successfulPing.PNG" alt="successfulPing" width="50%" height="50%">
+
+19. **Stop the ping activity**
+<img src="images/2 - observation/33 - stopProcess.PNG" alt="stopProcess" width="50%" height="50%">
+<br />
+<br />
+<br />
 
 ## Part 3 (Observe SSH Traffic)
 
-1. **Back in Wireshark, filter for SSH traffic only**
-2. **From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)**
-3. **Type commands (username, password, etc.) into the Linux SSH connection and observe SSH traffic spam in Wireshark**
-4. **Exit the SSH connection by typing `exit` and pressing [Enter]**
+3. **From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)**
+<img src="images/2 - observation/34 - privateIPreminder.PNG" alt="privateIPreminder" width="50%" height="50%">
+<img src="images/2 - observation/35 - sshCommand.PNG" alt="sshCommand" width="50%" height="50%">
+
+1. **Back in Wireshark, filter for SSH traffic only. Observe SSH traffic.**
+<img src="images/2 - observation/36 - accessVm2.PNG" alt="accessVm2" width="50%" height="50%">
+   
+7. **Exit the SSH connection by typing `exit` and pressing [Enter]**
+<img src="images/2 - observation/37 - exitCommand.PNG" alt="exitCommand" width="50%" height="50%">
 
 ## Part 4 (Observe DHCP Traffic)
 
-1. **Back in Wireshark, filter for DHCP traffic only**
-2. **From your Windows 10 VM, attempt to issue your VM a new IP address from the Command Line (`ipconfig /renew`)**
-3. **Observe the DHCP traffic appearing in Wireshark**
+1. **Back in Wireshark, filter for DHCP traffic only. Observe the DHCP traffic appearing in Wireshark**
+
 
 ## Part 5 (Observe DNS Traffic)
 
-1. **Back in Wireshark, filter for DNS traffic only**
-2. **From your Windows 10 VM within a Command Line, use `nslookup` to see what google.com and disney.com’s IP addresses are**
-3. **Observe the DNS traffic being shown in Wireshark**
+1. **Back in Wireshark, filter for DNS traffic only. Observe the DNS traffic being shown in Wireshark.**
+<img src="images/2 - observation/38 - dnsObservation.PNG" alt="dnsObservation" width="50%" height="50%">
 
 ## Part 6 (Observe RDP Traffic)
+**Back in Wireshark, filter for RDP traffic only. Observe the RDP traffic being shown in Wireshark.**
+<img src="images/2 - observation/39 - rdp.PNG" alt="rdp" width="50%" height="50%">
 
-1. **Back in Wireshark, filter for RDP traffic only (`tcp.port == 3389`)**
-2. **Observe the immediate non-stop spam of traffic. Why do you think it’s non-stop spamming vs. only showing traffic when you do an activity?**
-   - **Answer:** Because the RDP protocol is constantly showing you a live stream from one computer to another, therefore traffic is always being transmitted.
 
-## Lab Cleanup (DON’T FORGET THIS)
 
-1. **Close your Remote Desktop connection**
-2. **Delete the Resource Group(s) created at the beginning of this lab**
-3. **Verify Resource Group Deletion**
 
 
 
