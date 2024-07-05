@@ -24,13 +24,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 # Azure Networking Lab
 
 <img src="images/1 - Setup/1 - resourceGroups.PNG" alt="resourceGroups" width="50%" height="50%">
-<img src="images/1 - Setup/10 - skipDisk2.PNG" alt="skipDisk2" width="50%" height="50%">
-<img src="images/1 - Setup/11 - networking2.PNG" alt="networking2" width="50%" height="50%">
-<img src="images/1 - Setup/12 - remoteDesktop.PNG" alt="remoteDesktop" width="50%" height="50%">
-<img src="images/1 - Setup/13 - privacySettings.PNG" alt="privacySettings" width="50%" height="50%">
-<img src="images/1 - Setup/14 - wireSharkSearch.PNG" alt="wireSharkSearch" width="50%" height="50%">
-<img src="images/1 - Setup/15 - downloadWireshark.PNG" alt="downloadWireshark" width="50%" height="50%">
-<img src="images/1 - Setup/16 - wiresharkInstall.PNG" alt="wiresharkInstall" width="50%" height="50%">
 <img src="images/1 - Setup/2 - reviewCreate.PNG" alt="reviewCreate" width="50%" height="50%">
 <img src="images/1 - Setup/3- VmPage.PNG" alt="VmPage" width="50%" height="50%">
 <img src="images/1 - Setup/4 - vmCreateTop.PNG" alt="vmCreateTop" width="50%" height="50%">
@@ -39,6 +32,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="images/1 - Setup/7 - networking.PNG" alt="networking" width="50%" height="50%">
 <img src="images/1 - Setup/8 - createVM2.PNG" alt="createVM2" width="50%" height="50%">
 <img src="images/1 - Setup/9 - createVM2Bottom.PNG" alt="createVM2Bottom" width="50%" height="50%">
+<img src="images/1 - Setup/10 - skipDisk2.PNG" alt="skipDisk2" width="50%" height="50%">
+<img src="images/1 - Setup/11 - networking2.PNG" alt="networking2" width="50%" height="50%">
+<img src="images/1 - Setup/12 - remoteDesktop.PNG" alt="remoteDesktop" width="50%" height="50%">
+<img src="images/1 - Setup/13 - privacySettings.PNG" alt="privacySettings" width="50%" height="50%">
+<img src="images/1 - Setup/14 - wireSharkSearch.PNG" alt="wireSharkSearch" width="50%" height="50%">
+<img src="images/1 - Setup/15 - downloadWireshark.PNG" alt="downloadWireshark" width="50%" height="50%">
+<img src="images/1 - Setup/16 - wiresharkInstall.PNG" alt="wiresharkInstall" width="50%" height="50%">
 <img src="images/2 - observation/17 - wireSharkHome.PNG" alt="wireSharkHome" width="50%" height="50%">
 <img src="images/2 - observation/18 - randomDataCapture.PNG" alt="randomDataCapture" width="50%" height="50%">
 <img src="images/2 - observation/19 - searchIcmp.PNG" alt="searchIcmp" width="50%" height="50%">
