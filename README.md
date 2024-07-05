@@ -137,13 +137,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 ## Part 4 (Observe DHCP Traffic)
 
 1. **Back in Wireshark, filter for DHCP traffic only. Observe the DHCP traffic appearing in Wireshark**
-<img src="images/2 - observation/38 - dnsObservation.PNG" alt="dnsObservation" width="50%" height="50%">
+<img src="images/2 - observation/40 - dhcp.PNG" width="50%" height="50%">
 
 
 ## Part 5 (Observe DNS Traffic)
 
 1. **Back in Wireshark, filter for DNS traffic only. Observe the DNS traffic being shown in Wireshark.**
-<img src="images/2 - observation/40 - dhcp.PNG" width="50%" height="50%">
+
+<img src="images/2 - observation/38 - dnsObservation.PNG" alt="dnsObservation" width="50%" height="50%">
 
 ## Part 6 (Observe RDP Traffic)
 **Back in Wireshark, filter for RDP traffic only. Observe the RDP traffic being shown in Wireshark.**
