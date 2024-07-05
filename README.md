@@ -27,11 +27,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 
-<img src="images/1 - Setup/12 - remoteDesktop.PNG" alt="remoteDesktop" width="50%" height="50%">
-<img src="images/1 - Setup/13 - privacySettings.PNG" alt="privacySettings" width="50%" height="50%">
-<img src="images/1 - Setup/14 - wireSharkSearch.PNG" alt="wireSharkSearch" width="50%" height="50%">
-<img src="images/1 - Setup/15 - downloadWireshark.PNG" alt="downloadWireshark" width="50%" height="50%">
-<img src="images/1 - Setup/16 - wiresharkInstall.PNG" alt="wiresharkInstall" width="50%" height="50%">
+
 <img src="images/2 - observation/17 - wireSharkHome.PNG" alt="wireSharkHome" width="50%" height="50%">
 <img src="images/2 - observation/18 - randomDataCapture.PNG" alt="randomDataCapture" width="50%" height="50%">
 <img src="images/2 - observation/19 - searchIcmp.PNG" alt="searchIcmp" width="50%" height="50%">
@@ -60,9 +56,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 ## Part 1 (Create our Resources)
 
-1. **Create a Resource Group**
+1. <h4>Create a Resource Group</h4>
    <img src="images/1 - Setup/1 - resourceGroups.PNG" alt="resourceGroups" width="50%" height="50%">
    <img src="images/1 - Setup/2 - reviewCreate.PNG" alt="reviewCreate" width="50%" height="50%">
+<br />
+<br />
+<br />
 
 3. **Create a Windows 10 Virtual Machine (VM)**
    - While creating the VM, select the previously created Resource Group.
@@ -72,15 +71,33 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    <img src="images/1 - Setup/5 - vmCreateBottom.PNG" alt="vmCreateBottom" width="50%" height="50%">
    <img src="images/1 - Setup/6 - skipDisk.PNG" alt="skipDisk" width="50%" height="50%">
    <img src="images/1 - Setup/7 - networking.PNG" alt="networking" width="50%" height="50%">
-     
+     <br />
+     <br />
+     <br />
+
 4. **Create a Linux (Ubuntu) VM**
    - While creating the VM, select the previously created Resource Group and Vnet.
    <img src="images/1 - Setup/8 - createVM2.PNG" alt="createVM2" width="50%" height="50%">
    <img src="images/1 - Setup/9 - createVM2Bottom.PNG" alt="createVM2Bottom" width="50%" height="50%">
    <img src="images/1 - Setup/10 - skipDisk2.PNG" alt="skipDisk2" width="50%" height="50%">
    <img src="images/1 - Setup/11 - networking2.PNG" alt="networking2" width="50%" height="50%">
+      <br />
+      <br />
+      <br />
 
-5. **Observe Your Virtual Network within Network Watcher**
+<h4>Connect to your VM by remote desktop connection</h4>
+<img src="images/1 - Setup/12 - remoteDesktop.PNG" alt="remoteDesktop" width="50%" height="50%">
+
+<h4>Turn of all options</h4>
+<img src="images/1 - Setup/13 - privacySettings.PNG" alt="privacySettings" width="50%" height="50%">
+
+<h4>Search for Wireshark, download, and setup</h4>
+<img src="images/1 - Setup/14 - wireSharkSearch.PNG" alt="wireSharkSearch" width="50%" height="50%">
+<img src="images/1 - Setup/15 - downloadWireshark.PNG" alt="downloadWireshark" width="50%" height="50%">
+<img src="images/1 - Setup/16 - wiresharkInstall.PNG" alt="wiresharkInstall" width="50%" height="50%">
+<br />
+<br />
+<br />
 
 ## Part 2 (Observe ICMP Traffic)
 
