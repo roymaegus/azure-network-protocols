@@ -28,20 +28,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 
-<img src="images/2 - observation/17 - wireSharkHome.PNG" alt="wireSharkHome" width="50%" height="50%">
-<img src="images/2 - observation/18 - randomDataCapture.PNG" alt="randomDataCapture" width="50%" height="50%">
-<img src="images/2 - observation/19 - searchIcmp.PNG" alt="searchIcmp" width="50%" height="50%">
-<img src="images/2 - observation/20 - privateIpAdressVm2.PNG" alt="privateIpAdressVm2" width="50%" height="50%">
-<img src="images/2 - observation/21 - openPowershell.PNG" alt="openPowershell" width="50%" height="50%">
-<img src="images/2 - observation/22 - pingVM2.PNG" alt="pingVM2" width="50%" height="50%">
-<img src="images/2 - observation/23 - clearData.PNG" alt="clearData" width="50%" height="50%">
-<img src="images/2 - observation/24 - infinitePing.PNG" alt="infinitePing" width="50%" height="50%">
-<img src="images/2 - observation/25 - infinitePingActive.PNG" alt="infinitePingActive" width="50%" height="50%">
-<img src="images/2 - observation/26 - NetworkSecurityGroups.PNG" alt="NetworkSecurityGroups" width="50%" height="50%">
-<img src="images/2 - observation/27 - selectNSG.PNG" alt="selectNSG" width="50%" height="50%">
-<img src="images/2 - observation/28 - inboundSecurity.PNG" alt="inboundSecurity" width="50%" height="50%">
-<img src="images/2 - observation/29 - inboundSecurityRuleConfig.PNG" alt="inboundSecurityRuleConfig" width="50%" height="50%">
-<img src="images/2 - observation/30 - timeOut.PNG" alt="timeOut" width="50%" height="50%">
 <img src="images/2 - observation/31 - allowPing.PNG" alt="allowPing" width="50%" height="50%">
 <img src="images/2 - observation/32 - successfulPing.PNG" alt="successfulPing" width="50%" height="50%">
 <img src="images/2 - observation/33 - stopProcess.PNG" alt="stopProcess" width="50%" height="50%">
@@ -91,6 +77,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h4>Turn of all options</h4>
 <img src="images/1 - Setup/13 - privacySettings.PNG" alt="privacySettings" width="50%" height="50%">
 
+
+
+## Part 2 (Observe ICMP Traffic)
+
 <h4>Search for Wireshark, download, and setup</h4>
 <img src="images/1 - Setup/14 - wireSharkSearch.PNG" alt="wireSharkSearch" width="50%" height="50%">
 <img src="images/1 - Setup/15 - downloadWireshark.PNG" alt="downloadWireshark" width="50%" height="50%">
@@ -99,20 +89,44 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 <br />
 
-## Part 2 (Observe ICMP Traffic)
 
-1. **Use Remote Desktop to connect to your Windows 10 Virtual Machine**
-2. **Within your Windows 10 Virtual Machine, Install Wireshark**
+
 3. **Open Wireshark and filter for ICMP traffic only**
-4. **Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM**
-5. **Observe ping requests and replies within Wireshark**
-6. **From the Windows 10 VM, open Command Line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in Wireshark**
-7. **Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM**
-8. **Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic**
-9. **Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the Command Line Ping activity**
-10. **Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using**
-11. **Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the Command Line Ping activity (should start working)**
-12. **Stop the ping activity**
+
+<img src="images/2 - observation/17 - wireSharkHome.PNG" alt="wireSharkHome" width="50%" height="50%">
+<img src="images/2 - observation/18 - randomDataCapture.PNG" alt="randomDataCapture" width="50%" height="50%">
+<img src="images/2 - observation/19 - searchIcmp.PNG" alt="searchIcmp" width="50%" height="50%">
+
+
+5. **Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM**
+<img src="images/2 - observation/20 - privateIpAdressVm2.PNG" alt="privateIpAdressVm2" width="50%" height="50%">
+   
+7. **Observe ping requests and replies within Wireshark**
+<img src="images/2 - observation/21 - openPowershell.PNG" alt="openPowershell" width="50%" height="50%">
+<img src="images/2 - observation/22 - pingVM2.PNG" alt="pingVM2" width="50%" height="50%">
+<img src="images/2 - observation/23 - clearData.PNG" alt="clearData" width="50%" height="50%">
+
+10. **Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM**
+<img src="images/2 - observation/24 - infinitePing.PNG" alt="infinitePing" width="50%" height="50%">
+<img src="images/2 - observation/25 - infinitePingActive.PNG" alt="infinitePingActive" width="50%" height="50%">
+
+
+
+
+11. **Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic**
+
+   <img src="images/2 - observation/26 - NetworkSecurityGroups.PNG" alt="NetworkSecurityGroups" width="50%" height="50%">
+<img src="images/2 - observation/27 - selectNSG.PNG" alt="selectNSG" width="50%" height="50%">
+<img src="images/2 - observation/28 - inboundSecurity.PNG" alt="inboundSecurity" width="50%" height="50%">
+<img src="images/2 - observation/29 - inboundSecurityRuleConfig.PNG" alt="inboundSecurityRuleConfig" width="50%" height="50%">
+
+
+13. **Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the Command Line Ping activity**
+<img src="images/2 - observation/30 - timeOut.PNG" alt="timeOut" width="50%" height="50%">
+    
+15. **Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using**
+16. **Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the Command Line Ping activity (should start working)**
+17. **Stop the ping activity**
 
 ## Part 3 (Observe SSH Traffic)
 
