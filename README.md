@@ -23,17 +23,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 # Azure Networking Lab
 
-<img src="images/1 - Setup/1 - resourceGroups.PNG" alt="resourceGroups" width="50%" height="50%">
-<img src="images/1 - Setup/2 - reviewCreate.PNG" alt="reviewCreate" width="50%" height="50%">
-<img src="images/1 - Setup/3- VmPage.PNG" alt="VmPage" width="50%" height="50%">
-<img src="images/1 - Setup/4 - vmCreateTop.PNG" alt="vmCreateTop" width="50%" height="50%">
-<img src="images/1 - Setup/5 - vmCreateBottom.PNG" alt="vmCreateBottom" width="50%" height="50%">
-<img src="images/1 - Setup/6 - skipDisk.PNG" alt="skipDisk" width="50%" height="50%">
-<img src="images/1 - Setup/7 - networking.PNG" alt="networking" width="50%" height="50%">
-<img src="images/1 - Setup/8 - createVM2.PNG" alt="createVM2" width="50%" height="50%">
-<img src="images/1 - Setup/9 - createVM2Bottom.PNG" alt="createVM2Bottom" width="50%" height="50%">
-<img src="images/1 - Setup/10 - skipDisk2.PNG" alt="skipDisk2" width="50%" height="50%">
-<img src="images/1 - Setup/11 - networking2.PNG" alt="networking2" width="50%" height="50%">
+
+
+
+
 <img src="images/1 - Setup/12 - remoteDesktop.PNG" alt="remoteDesktop" width="50%" height="50%">
 <img src="images/1 - Setup/13 - privacySettings.PNG" alt="privacySettings" width="50%" height="50%">
 <img src="images/1 - Setup/14 - wireSharkSearch.PNG" alt="wireSharkSearch" width="50%" height="50%">
@@ -67,12 +60,26 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 ## Part 1 (Create our Resources)
 
 1. **Create a Resource Group**
-2. **Create a Windows 10 Virtual Machine (VM)**
+   <img src="images/1 - Setup/1 - resourceGroups.PNG" alt="resourceGroups" width="50%" height="50%">
+   <img src="images/1 - Setup/2 - reviewCreate.PNG" alt="reviewCreate" width="50%" height="50%">
+
+3. **Create a Windows 10 Virtual Machine (VM)**
    - While creating the VM, select the previously created Resource Group.
    - Allow it to create a new Virtual Network (Vnet) and Subnet.
-3. **Create a Linux (Ubuntu) VM**
+   <img src="images/1 - Setup/3- VmPage.PNG" alt="VmPage" width="50%" height="50%">
+   <img src="images/1 - Setup/4 - vmCreateTop.PNG" alt="vmCreateTop" width="50%" height="50%">
+   <img src="images/1 - Setup/5 - vmCreateBottom.PNG" alt="vmCreateBottom" width="50%" height="50%">
+   <img src="images/1 - Setup/6 - skipDisk.PNG" alt="skipDisk" width="50%" height="50%">
+   <img src="images/1 - Setup/7 - networking.PNG" alt="networking" width="50%" height="50%">
+     
+4. **Create a Linux (Ubuntu) VM**
    - While creating the VM, select the previously created Resource Group and Vnet.
-4. **Observe Your Virtual Network within Network Watcher**
+   <img src="images/1 - Setup/8 - createVM2.PNG" alt="createVM2" width="50%" height="50%">
+   <img src="images/1 - Setup/9 - createVM2Bottom.PNG" alt="createVM2Bottom" width="50%" height="50%">
+   <img src="images/1 - Setup/10 - skipDisk2.PNG" alt="skipDisk2" width="50%" height="50%">
+   <img src="images/1 - Setup/11 - networking2.PNG" alt="networking2" width="50%" height="50%">
+
+5. **Observe Your Virtual Network within Network Watcher**
 
 ## Part 2 (Observe ICMP Traffic)
 
